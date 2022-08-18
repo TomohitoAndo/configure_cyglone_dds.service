@@ -1,0 +1,10 @@
+[Unit]
+Description = Configure Cyclone DDS
+
+[Service]
+ExecStart = /opt/service/configure_cyclone_dds.sh
+Restart = no
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
